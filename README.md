@@ -7,7 +7,7 @@ $ .\myenv\Scripts\activate
 ```
 Так же установить пакеты:
 ```shell
-$ pip install fastapi uvicorn sqlalchemy databases[sqlite] python-dotenv
+$ pip install fastapi uvicorn sqlalchemy asyncpg psycopg2 pydantic python-dotenv
 ```
 Что бы собрать контейнер и запустить его воспользоваться командами:
 ```shell
