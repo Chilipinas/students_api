@@ -1,11 +1,8 @@
 from typing import List
 from sqlalchemy import Column, Integer, String, ForeignKey
-from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
 from pydantic import BaseModel
-
-# Создание базовой модели
-Base = declarative_base()
+from app.database import Base
 
 # Модель студента
 class Student(Base):
