@@ -15,4 +15,4 @@ $ docker-compose up --build
 $ docker-compose up -d
 ```
 
-P.s. Для запуска необходим установленный Docker установить Docker.
+P.s. Для запуска необходим установленный на пк Docker.
