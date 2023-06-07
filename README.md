@@ -9,3 +9,10 @@ $ .\myenv\Scripts\activate
 ```shell
 $ pip install fastapi uvicorn sqlalchemy databases[sqlite] python-dotenv
 ```
+Что бы собрать контейнер и запустить его воспользоваться командами:
+```shell
+$ docker-compose up --build
+$ docker-compose up -d
+```
+
+P.s. Для запуска необходим установленный Docker установить Docker.
